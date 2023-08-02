@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot_rabbitmq" />
-        <module name="test1" />
         <module name="code-module" />
       </profile>
     </annotationProcessing>
@@ -16,6 +15,7 @@
       <module name="code" target="1.8.0_281" />
       <module name="codenote" target="1.8.0_281" />
       <module name="test" target="1.8.0_281" />
+      <module name="test1" target="1.8.0_281" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
