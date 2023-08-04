@@ -1,4 +1,4 @@
-package com.module.secKillRedis;
+package com.module.controller.secKillRedis;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -24,7 +24,7 @@ public class SecKillServlet extends HttpServlet {
 		String prodid =request.getParameter("prodid");
 		
 		//boolean isSuccess=SecKill_redis.doSecKill(userid,prodid);
-		boolean isSuccess= com.module.secKillRedis.SecKill_redisByScript.doSecKill(userid,prodid);
+		boolean isSuccess= SecKill_redisByScript.doSecKill(userid,prodid);
 		response.getWriter().print(isSuccess);
 	}
 

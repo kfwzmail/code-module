@@ -1,4 +1,4 @@
-package com.module.secKillRedis;
+package com.module.controller.secKillRedis;
 
 import org.slf4j.LoggerFactory;
 import redis.clients.jedis.HostAndPort;

@@ -1,4 +1,4 @@
-package com.module.secKillRedis;
+package com.module.controller.secKillRedis;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
