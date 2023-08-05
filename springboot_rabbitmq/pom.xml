@@ -47,6 +47,11 @@
         </dependency>
 
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.76</version>
@@ -69,8 +74,6 @@
             <version>2.0.38</version>
             <scope>compile</scope>
         </dependency>
-
-
     </dependencies>
 
     <build>
